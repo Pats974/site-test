@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patrice — Photographe futuriste</title>
+  <meta name="description" content="Portfolio photo futuriste de Patrice : portraits, urbain, nature et événements. Galerie premium avec lightbox et navigation accessible.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Patrice — Photographe futuriste">
+  <meta property="og:description" content="Découvrez un portfolio photo moderne et immersif : portraits, urbain, nature et événement.">
+  <meta property="og:image" content="assets/img/og-placeholder.jpg">
+  <meta property="og:locale" content="fr_FR">
+  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="18" fill="%23070b14"/><circle cx="50" cy="50" r="24" fill="none" stroke="%2300e6ff" stroke-width="8"/><circle cx="50" cy="50" r="6" fill="%23a56bff"/></svg>'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Navigation principale">
+      <a class="brand" href="#top" aria-label="Retour en haut">
+        <span class="brand-dot" aria-hidden="true"></span>
+        Patrice
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#galerie">Galerie</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#temoignages">Témoignages</a></li>
+      </ul>
+      <a class="button ghost" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-full" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow">Portfolio photo</p>
+        <h1 id="hero-title">Patrice</h1>
+        <p class="subtitle">Photographe • Capturer l’instant, façon futuriste</p>
+        <a class="button" href="#galerie">Voir la galerie</a>
+      </div>
+    </section>
+
+    <section id="apropos" class="section">
+      <div class="section-head">
+        <h2>À propos</h2>
+      </div>
+      <p>
+        Je compose des images cinématiques mêlant contraste, néons doux et narration visuelle.
+        Chaque séance cherche l’émotion juste, avec une direction artistique claire et moderne.
+      </p>
+      <ul class="bullet-list">
+        <li><strong>Style :</strong> éditorial, urbain, lumière naturelle + ambiance nocturne.</li>
+        <li><strong>Matériel :</strong> hybride plein format, optiques lumineuses, workflow colorimétrique maîtrisé.</li>
+        <li><strong>Zones :</strong> studio, extérieur, centre-ville et événements privés/pro.</li>
+      </ul>
+    </section>
+
+    <section id="galerie" class="section" aria-labelledby="gallery-title">
+      <div class="section-head">
+        <h2 id="gallery-title">Galerie</h2>
+      </div>
+
+      <div class="filters" role="toolbar" aria-label="Filtres de galerie">
+        <button class="filter-btn active" data-filter="all" type="button">Tous</button>
+        <button class="filter-btn" data-filter="portrait" type="button">Portrait</button>
+        <button class="filter-btn" data-filter="urbain" type="button">Urbain</button>
+        <button class="filter-btn" data-filter="nature" type="button">Nature</button>
+        <button class="filter-btn" data-filter="evenement" type="button">Événement</button>
+      </div>
+
+      <div class="gallery-grid" id="gallery-grid">
+        <article class="gallery-item" data-category="portrait">
+          <button class="gallery-trigger" type="button" data-src="assets/img/photo-01.jpg" data-alt="Portrait futuriste en lumière douce">
+            <img src="assets/img/photo-01.jpg" alt="Portrait futuriste en lumière douce" loading="lazy">
+            <span class="placeholder-text" aria-hidden="true">Ajoutez votre photo</span>
+          </button>
+          <p>Portrait</p>
+        </article>
+        <article class="gallery-item" data-category="urbain">
+          <button class="gallery-trigger" type="button" data-src="assets/img/photo-02.jpg" data-alt="Scène urbaine de nuit aux reflets néon">
+            <img src="assets/img/photo-02.jpg" alt="Scène urbaine de nuit aux reflets néon" loading="lazy">
+            <span class="placeholder-text" aria-hidden="true">Ajoutez votre photo</span>
+          </button>
+          <p>Urbain</p>
+        </article>
+        <article class="gallery-item" data-category="nature">
+          <button class="gallery-trigger" type="button" data-src="assets/img/photo-03.jpg" data-alt="Paysage nature avec tons bleus crépusculaires">
+            <img src="assets/img/photo-03.jpg" alt="Paysage nature avec tons bleus crépusculaires" loading="lazy">
+            <span class="placeholder-text" aria-hidden="true">Ajoutez votre photo</span>
+          </button>
+          <p>Nature</p>
+        </article>
+        <article class="gallery-item" data-category="evenement">
+          <button class="gallery-trigger" type="button" data-src="assets/img/photo-04.jpg" data-alt="Moment d'événement capturé sur le vif">
+            <img src="assets/img/photo-04.jpg" alt="Moment d'événement capturé sur le vif" loading="lazy">
+            <span class="placeholder-text" aria-hidden="true">Ajoutez votre photo</span>
+          </button>
+          <p>Événement</p>
+        </article>
+        <article class="gallery-item" data-category="portrait">
+          <button class="gallery-trigger" type="button" data-src="assets/img/photo-05.jpg" data-alt="Portrait en studio avec contraste futuriste">
+            <img src="assets/img/photo-05.jpg" alt="Portrait en studio avec contraste futuriste" loading="lazy">
+            <span class="placeholder-text" aria-hidden="true">Ajoutez votre photo</span>
+          </button>
+          <p>Portrait</p>
+        </article>
+        <article class="gallery-item" data-category="urbain">
+          <button class="gallery-trigger" type="button" data-src="assets/img/photo-06.jpg" data-alt="Architecture urbaine sous éclairage nocturne">
+            <img src="assets/img/photo-06.jpg" alt="Architecture urbaine sous éclairage nocturne" loading="lazy">
+            <span class="placeholder-text" aria-hidden="true">Ajoutez votre photo</span>
+          </button>
+          <p>Urbain</p>
+        </article>
+        <article class="gallery-item" data-category="nature">
+          <button class="gallery-trigger" type="button" data-src="assets/img/photo-07.jpg" data-alt="Forêt et brume avec ambiance cinématique">
+            <img src="assets/img/photo-07.jpg" alt="Forêt et brume avec ambiance cinématique" loading="lazy">
+            <span class="placeholder-text" aria-hidden="true">Ajoutez votre photo</span>
+          </button>
+          <p>Nature</p>
+        </article>
+        <article class="gallery-item" data-category="evenement">
+          <button class="gallery-trigger" type="button" data-src="assets/img/photo-08.jpg" data-alt="Scène de réception avec lumières d'ambiance">
+            <img src="assets/img/photo-08.jpg" alt="Scène de réception avec lumières d'ambiance" loading="lazy">
+            <span class="placeholder-text" aria-hidden="true">Ajoutez votre photo</span>
+          </button>
+          <p>Événement</p>
+        </article>
+        <article class="gallery-item" data-category="portrait">
+          <button class="gallery-trigger" type="button" data-src="assets/img/photo-09.jpg" data-alt="Portrait en mouvement dans un décor minimaliste">
+            <img src="assets/img/photo-09.jpg" alt="Portrait en mouvement dans un décor minimaliste" loading="lazy">
+            <span class="placeholder-text" aria-hidden="true">Ajoutez votre photo</span>
+          </button>
+          <p>Portrait</p>
+        </article>
+        <article class="gallery-item" data-category="urbain">
+          <button class="gallery-trigger" type="button" data-src="assets/img/photo-10.jpg" data-alt="Rue moderne avec perspectives géométriques">
+            <img src="assets/img/photo-10.jpg" alt="Rue moderne avec perspectives géométriques" loading="lazy">
+            <span class="placeholder-text" aria-hidden="true">Ajoutez votre photo</span>
+          </button>
+          <p>Urbain</p>
+        </article>
+        <article class="gallery-item" data-category="nature">
+          <button class="gallery-trigger" type="button" data-src="assets/img/photo-11.jpg" data-alt="Ligne d'horizon naturelle aux teintes froides">
+            <img src="assets/img/photo-11.jpg" alt="Ligne d'horizon naturelle aux teintes froides" loading="lazy">
+            <span class="placeholder-text" aria-hidden="true">Ajoutez votre photo</span>
+          </button>
+          <p>Nature</p>
+        </article>
+        <article class="gallery-item" data-category="evenement">
+          <button class="gallery-trigger" type="button" data-src="assets/img/photo-12.jpg" data-alt="Instant spontané durant un événement en intérieur">
+            <img src="assets/img/photo-12.jpg" alt="Instant spontané durant un événement en intérieur" loading="lazy">
+            <span class="placeholder-text" aria-hidden="true">Ajoutez votre photo</span>
+          </button>
+          <p>Événement</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="services" class="section" aria-labelledby="services-title">
+      <div class="section-head">
+        <h2 id="services-title">Services</h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <h3>Portrait</h3>
+          <p>Séances individuelles ou duo, direction simple et rendu premium prêt pour web et impression.</p>
+        </article>
+        <article class="card">
+          <h3>Événement</h3>
+          <p>Couverture discrète des moments clés avec livraison rapide d’une sélection éditorialisée.</p>
+        </article>
+        <article class="card">
+          <h3>Tirages / Prints</h3>
+          <p>Accompagnement sur les formats, papiers d’art et finitions pour exposer vos images durablement.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="temoignages" class="section" aria-labelledby="testimonials-title">
+      <div class="section-head">
+        <h2 id="testimonials-title">Témoignages</h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <h3>Client·e</h3>
+          <p>« Direction claire, ambiance fluide, résultat élégant et naturel. »</p>
+        </article>
+        <article class="card">
+          <h3>Client·e</h3>
+          <p>« Très bonne préparation en amont, rendu cohérent avec notre univers visuel. »</p>
+        </article>
+        <article class="card">
+          <h3>Client·e</h3>
+          <p>« Images livrées rapidement, retouches subtiles et communication impeccable. »</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="section-head">
+        <h2 id="contact-title">Contact</h2>
+      </div>
+      <form class="contact-form" action="#" method="post">
+        <label for="name">Nom</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button class="button" type="submit">Envoyer (démo front-only)</button>
+      </form>
+      <div class="contact-links">
+        <a class="button ghost" href="mailto:bonjour@example.com">Envoyer un email</a>
+        <a href="#" aria-label="Instagram (placeholder)">Instagram</a>
+        <a href="#" aria-label="Behance (placeholder)">Behance</a>
+        <a href="#" aria-label="LinkedIn (placeholder)">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Aperçu de la photo">
+    <button class="lightbox-close" type="button" aria-label="Fermer l'aperçu">×</button>
+    <button class="lightbox-nav prev" type="button" aria-label="Image précédente">‹</button>
+    <img class="lightbox-image" src="" alt="">
+    <button class="lightbox-nav next" type="button" aria-label="Image suivante">›</button>
+  </div>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
